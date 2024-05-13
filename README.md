@@ -4,11 +4,11 @@ System monitorowania wydatków
 #spis treści:
 
 Funkcjonalnosci:
-1.1 Metoda GET.
-1.2 Metoda POST.
-1.3 Metoda PUT. 
-1.4 Metoda DELETE. 
-1.5 Zapis danych.
+  1.1 Metoda GET.
+  1.2 Metoda POST.
+  1.3 Metoda PUT. 
+  1.4 Metoda DELETE. 
+  1.5 Zapis danych.
 
 Instrukcja obsługi 
 2.1 Wymagane Pakiety 
