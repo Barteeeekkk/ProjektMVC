@@ -104,16 +104,4 @@ module.exports = class Form {
             }
         });
     }
-
-    // static getSum(){
-    //     getFormsFromFile((forms)=>{
-    //         let sumAll = 0;
-    //         for(let form of forms){
-    //             sumAll =+ Number(form.sum);
-    //             callback(sumAll);
-    //             return;
-    //         };
-    //         callback(null);
-    //     });
-    // }
 }
