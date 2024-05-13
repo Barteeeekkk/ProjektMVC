@@ -1,0 +1,35 @@
+
+<%- include('partials/head.ejs')%>
+<body>
+    
+    <%- include('partials/navigation.ejs')%>
+
+    <div class="main">
+
+
+    <h1 >Expenditure list</h1>
+    <div class="main4">
+    <% if (forms.length === 0) { %>
+        <p>No expenditures has been found</p>
+    <% } else { %>
+        <ul class ="list">
+            <% for (let form of forms) { %>
+                <li> Expense name: <%=form.expenseName %>,
+                    Category: <%=form.category %>,
+                    Money: <%=form.sum %>$, 
+                    Date: <%=form.date %> </li> 
+                    <button id="edit"><a href="/forms/<%=form.id%>">Edit Data</a></button>
+                    
+                    <form method="POST" action="/<%=form.id%>?_method=DELETE">
+                        <button type="submit">Delete Data</button>
+                      </form>
+                
+                    <br><br> 
+            <% }; %>
+            
+        </ul>
+    <% } %>
+    </div>
+    </div>
+</body>
+</html>

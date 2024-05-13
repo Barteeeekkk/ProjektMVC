@@ -1,0 +1,25 @@
+<%- include('partials/head.ejs')%>
+<body>
+    <%- include('partials/navigation.ejs')%>
+
+    <div class="main">
+        <h1>Expense report</h1>
+        
+        <div class ="main2">
+            <h4>Sum of money based on the number of days </h4>
+            Sum of all expenditures: <%=sumAll%>$<br>
+            Sum of all expenditures in one week: <%=sumWeek%>$<br>
+            Sum of all expenditures in 30 days week: <%=sumMonth%>$<br>
+            Sum of all expenditures in 365 days week: <%=sumYear%>$<br><br>
+
+            <h4>Sum of money based on the category</h4>
+            Sum of expenditures allocated for Food: <%=sumFood%>$<br>
+            Sum of expenditures allocated for Bills : <%=sumBills%>$<br>
+            Sum of expenditures allocated for Health : <%=sumHealth%>$<br>
+            Sum of expenditures allocated for Clothes : <%=sumClothes%>$<br>
+            Sum of expenditures allocated for Relaxation : <%=sumRelaxation%>$<br>
+            Sum of expenditures allocated for Others : <%=sumOthers%>$<br>
+        </div>
+    </div>
+</body>
+</html>
