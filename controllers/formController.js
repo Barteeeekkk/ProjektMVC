@@ -17,7 +17,6 @@ const addNewForm = (request,response) =>{
     const {expenseName, category , sum, date} = request.body;
     const form = new Form(expenseName, category , sum, date);
     form.save();
-    console.log(form);
     response.redirect("/forms");
 }
 
