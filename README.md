@@ -25,7 +25,7 @@ Funkcjonalności:
 2.1 Wymagane pakiety: 
 - Express.js (instalacja poprzez komende "npm i express") 
 - EJS (instalacja poprzez komende "npm i ejs")
-- - Method-override(instalacja poprzez komende "npm i method-override")
-  - - Nodemon(instalacja poprzez komende "npm i nodemon")
-    - 2.2 Jak uruchomić:
-    - W celu uruchomienia aplikacji należy wejsc w plik aplikacji i w terminalu wpisać "nodemon Server.js", nastepnie aby przejść do strony kliknij na link wyświetlony w konsoli(domyślnie: "http://localhost3000").
+- Method-override(instalacja poprzez komende "npm i method-override")
+- Nodemon(instalacja poprzez komende "npm i nodemon")
+2.2 Jak uruchomić:
+W celu uruchomienia aplikacji należy wejsc w plik aplikacji i w terminalu wpisać "nodemon Server.js", nastepnie aby przejść do strony kliknij na link wyświetlony w konsoli(domyślnie: "http://localhost3000").
